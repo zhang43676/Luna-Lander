@@ -1,0 +1,31 @@
+/* name:               Zhao Zhang
+ * ONE Card number:    1271797 
+ * Unix id:            zz9
+ * lecture section:    A1
+ * instructor's name   Martin Mueller
+ * lab section         D04
+ * TA's name           Ding Liu
+ * 
+ * This program will now lunar lander game. 
+ * 
+ *           
+ */
+Lunar Lander Game:
+Run lander from the command line e.g. as in the following three examples.
+
+    ./lander -g 0 -t -5 -f landscape.txt
+    ./lander -g 9.8 -t -20 -f landscape.txt
+    ./lander -g 1.6 -t -5 -f landscape.txt
+
+    -g represents gravity, causing acceleration towards the moon
+    -t represents the thrust, the acceleration created by the ships thrusters when they are on.
+    -f has one argument, the name of a text file containing points that represent the landscape.
+    lander must respond to key clicks. Do this by using curses.
+    You must be able to rotate your ship.
+    Your ship must fall according to gravity. You can do this using signals.
+    Handle the three command line arguments specified above.
+    You must read in a text file specified using the -f option that represents a landscape. A sample file is landscape.txt.
+    Your ship must respond to thrust.
+    lander must appropriately detect a crash or a landing by testing for  line segment intersection.
+
+
